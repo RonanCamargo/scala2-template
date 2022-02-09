@@ -43,7 +43,7 @@ lazy val circeDependencies   = Seq(
   "io.circe" %% "circe-parser"         % circeVersion
 )
 
-lazy val fs2Dependencias     = Seq(
+lazy val fs2Dependencies     = Seq(
   "co.fs2" %% "fs2-core"             % fs2Version,
   "co.fs2" %% "fs2-io"               % fs2Version,
   "co.fs2" %% "fs2-reactive-streams" % fs2Version,
