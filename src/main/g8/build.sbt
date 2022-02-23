@@ -18,7 +18,7 @@ addCompilerPlugin("org.typelevel" % "kind-projector" % kindProjectorVersion cros
 libraryDependencies ++= dependencies
 
 lazy val dependencies          =
-  catsDependencies ++ monocleDependencies ++ circeDependencies ++ testDependencies ++ fs2Dependencias
+  catsDependencies ++ monocleDependencies ++ circeDependencies ++ testDependencies ++ fs2Dependencias ++ shapelessDependencies
 
 lazy val catsDependencies      = Seq(
   "org.typelevel" %% "cats-core"   % catsVersion,
