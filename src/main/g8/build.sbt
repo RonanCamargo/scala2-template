@@ -13,7 +13,6 @@ val monocleVersion       = "3.1.0"
 val fs2Version           = "3.2.8"
 val shapelessVersion     = "2.3.9"
 val kindProjectorVersion = "0.13.2"
-val kindProjectorVersion = "0.13.2"
 
 addCompilerPlugin("org.typelevel" % "kind-projector" % kindProjectorVersion cross CrossVersion.full)
 libraryDependencies ++= dependencies
