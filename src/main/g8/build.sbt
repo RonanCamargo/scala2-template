@@ -20,10 +20,8 @@ val scalaNewtype         = "0.4.4"
 val quillDoobieVersion   = "4.6.1"
 
 val kindProjectorVersion = "0.13.2"
-val paradiseVersion      = "2.1.1"
 
 addCompilerPlugin("org.typelevel"   % "kind-projector" % kindProjectorVersion cross CrossVersion.full)
-addCompilerPlugin("org.scalamacros" % "paradise"       % paradiseVersion cross CrossVersion.full)
 
 libraryDependencies ++= dependencies
 
